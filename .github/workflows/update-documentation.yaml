@@ -19,9 +19,9 @@ jobs:
         strategy:
             matrix:
                 version:
-                    - { ref: '3.1', version: 'latest', nodeVersion: '22.x' }
-                    - { ref: '3.1', version: '3.1', nodeVersion: '22.x' }
-                    - { ref: '3.0', version: '3.0', nodeVersion: '22.x' }
+                    - { ref: '3.1', version: 'latest', nodeVersion: '26.x' }
+                    - { ref: '3.1', version: '3.1', nodeVersion: '26.x' }
+                    - { ref: '3.0', version: '3.0', nodeVersion: '24.x' }
                     - { ref: '2.6', version: '2.6', nodeVersion: '20.x' }
                     - { ref: '2.5', version: '2.5', nodeVersion: '14.x' }
                     - { ref: '2.4.20', version: '2.4', nodeVersion: '12.x' }
